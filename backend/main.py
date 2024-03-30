@@ -17,7 +17,7 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-MODEL = tf.keras.models.load_model("C:/Users/tamilselvan/cotton/backend/model/cotton_best.h5")
+MODEL = tf.keras.models.load_model("TamilSelvanKumaravel/cotton_dieases_prediction/backend/model/cotton_best.h5")
 CLASS_NAMES = ["diseased_cotton_leaf", "diseased_cotton_plant", "fresh_cotton_leaf", "fresh_cotton_plant"]
 
 
